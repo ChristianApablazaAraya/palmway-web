@@ -134,7 +134,7 @@ nav a:hover, nav a.active {
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(255, 255, 255, 0.2);
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -358,6 +358,9 @@ footer {
 
     .team-photo {
         border: 5px solid var(--bg-dark); /* Borde oscuro en modo oscuro */
+    }
+    .carousel-container{
+        background-color: #000000;
     }
 }
 
